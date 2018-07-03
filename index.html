@@ -14,7 +14,8 @@
   <!-- bootstrap -->
   <link rel="stylesheet" href="public/libs/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/combined-bcdd0b6e93.css">
+  <link rel="stylesheet" href="css/combined-a7d7e72ac1.css">
+
 </head>
 
 <body>
@@ -23,6 +24,15 @@
   <![endif]-->
 
   <!-- Add your site or application content here (在此添加您的网站或应用程序内容)-->
+<div class="loader">
+  <div class="loader-inner ball-scale-multiple">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+
+
   <!-- 开始 -->
   <div class="container-fluid">
     <div class="row header-fluid background-section">
@@ -327,6 +337,14 @@
   <script src="public/libs/scrollreveal/dist/scrollreveal.min.js"></script>
   <script src="public/libs/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="scripts/combined-576e8d1c43.js"></script>
+
+<script type="text/javascript">
+    // 等待所有加载
+    $(window).on('load',function(){
+        // $('body').addClass('loaded');
+        $('.loader').remove();
+    });
+</script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID.(Google Analytics（分析）：将UA-XXXXX-Y更改为您网站的ID。) -->
   <!-- <script>
