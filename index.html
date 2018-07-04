@@ -14,11 +14,11 @@
   <!-- bootstrap -->
   <link rel="stylesheet" href="public/libs/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/combined-83ffc82d9d.css">
+  <link rel="stylesheet" href="css/combined-eab7c65d8d.css">
 
 </head>
 
-<body>
+<body class="overflow-hidden">
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
@@ -341,7 +341,7 @@
 <script type="text/javascript">
     // 等待所有加载
     $(window).on('load',function(){
-        // $('body').addClass('loaded');
+        $('body').removeClass('overflow-hidden');
         $('.loader').remove();
     });
 </script>
